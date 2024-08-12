@@ -72,7 +72,7 @@ export default function Component() {
             <div className="w-full flex flex-col items-center justify-center h-64 bg-muted rounded-md">
               <FileIcon className="w-12 h-12 text-muted-foreground" />
               <p className="mt-4 text-muted-foreground">
-                音声ファイルかテキストファイルを入れてね
+                音声ファイルかテキストファイルを入れてね(準備中)
               </p>
               <Button className="mt-4">
                 <UploadIcon className="w-4 h-4 mr-2" />
