@@ -31,7 +31,7 @@ export default function Component() {
 
   const handleCopy = () => {
     if (messages.length) {
-      navigator.clipboard.writeText(messages[0].content);
+      navigator.clipboard.writeText(messages[messages.length - 1].content);
       setIsCopied(true);
       setTimeout(() => {
         setIsCopied(false);
